@@ -1,0 +1,45 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Circular Std-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/5bad6b173b8df5000aac518c/CircularStd-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Circular Std-Black";
+  src: url("https://anima-uploads.s3.amazonaws.com/5a4ba8f1b8f2a915c345ec37/CircularStd-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Circular Std-Book";
+  src: url("https://anima-uploads.s3.amazonaws.com/5bad6b173b8df5000aac518c/CircularStd-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Circular Std-Medium";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/624183fffad2e6bd51ffccfa/fonts/circular-std-medium-500.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK KR-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/600141ce61c05d919928ee26/fonts/notosanscjkkr-bold.otf")
+    format("opentype");
+}
